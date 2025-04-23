@@ -6,7 +6,9 @@
 2. Installation and Requirements
 3. Usage Examples
 4. Tools Used
-5. Contributors
+5. Data Description
+6. References
+7. Contributors
 
 ---
 
@@ -76,7 +78,7 @@ More instructions and scripts for running annotation, BLAST comparisons, dotplot
 ## Tools Used
 
 ### Annotation Pipeline
-1. Augustus - Gene prediction
+1. Augustus - Gene prediction - https://github.com/Gaius-Augustus/Augustus
 2. EDTA - Transposable element annotation
 3. barrnap - rRNA gene prediction
 4. TRASH - tRNA gene annotation
@@ -111,7 +113,19 @@ More instructions and scripts for running annotation, BLAST comparisons, dotplot
    - Allele frequency spectra
 
 ---
+## References
+- AUGUSTUS - https://github.com/Gaius-Augustus/Augustus
+- EDTA - https://github.com/oushujun/EDTA
+- barrnap - https://github.com/tseemann/barrnap
+- TRASH - https://github.com/vlothec/TRASH
+- OrthoFinder - https://github.com/davidemms/OrthoFinder
+- BLAST - https://github.com/ncbi/blast_plus_docs
+- ModDotPlot - https://github.com/marbl/ModDotPlot
+- quarTet - https://github.com/aaranyue/quarTeT
+- samtools - https://github.com/samtools/samtools
+- computel - https://github.com/lilit-nersisyan/computel
 
+---
 ## Contributors
 
 - **Quayyum Abdullahi**, University of Nottingham
