@@ -75,19 +75,22 @@ More instructions and scripts for running annotation, BLAST comparisons, dotplot
 
 ## Tools Used
 
-| Tool             | Purpose                                         |
-| ---------------- | ----------------------------------------------- |
-| `Augustus`       | Gene prediction and annotation                  |
-| `barrnap`        | Ribosomal RNA prediction                        |
-| `EDTA`           | Transposable element annotation                 |
-| `TRASH`          | Tandem repeat annotation                        |
-| `centro_quartet` | Centromere analysis                             |
-| `computel`       | Telomere length estimation                      |
-| `samtools`       | General-purpose VCF/BAM handling                |
-| `ModDotPlot`     | Visualization of synteny and structural changes |
-| `Orthofinder`    | Ortholog inference across genomes               |
-| `quarTet`        | Comparative phylogeny analysis                  |
-| `BLAST`          | Sequence similarity search                      |
+### Annotation Pipeline
+1. Augustus - Gene prediction
+2. EDTA - Transposable element annotation
+3. barrnap - rRNA gene prediction
+4. TRASH - tRNA gene annotation
+
+### Comparative Genomics
+1. Orthofinder - Orthogroup inference
+2. BLAST - Sequence similarity searches
+3. ModDotPlot - Genome alignment visualization
+3. centro_quartet - Centromere analysis
+4. quarTet - Tetraploid-specific analyses
+
+### Quality Control
+1. samtools - Sequence data processing
+2. computel - Telomere identification and analysis
 
 ---
 
