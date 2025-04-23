@@ -94,6 +94,24 @@ More instructions and scripts for running annotation, BLAST comparisons, dotplot
 
 ---
 
+## Data Description
+### Input Data
+- VCF files containing allele frequencies for Arenosa individuals and Lyrata individuals
+- Reference genomes for both species
+- Haplome fasta files
+
+### Expected Outputs
+1. Annotated genome assemblies for both haplomes
+2. Comparative analyses including:
+   - Orthologous gene clusters
+   - Structural variants
+   - Repetitive element distributions
+3. Population genetic analyses:
+   - PCA plots
+   - Allele frequency spectra
+
+---
+
 ## Contributors
 
 - **Quayyum Abdullahi**, University of Nottingham
